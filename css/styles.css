@@ -7,3 +7,107 @@ html {
 	height: 100%;
 }
 
+
+body {
+     color: #c2c2c2;
+     background-color: #f1f1f1;
+     margin: 0;
+     padding: 0;
+     min-height: 100%;
+}
+
+header {
+	display: inline-block;
+	width: 90%;
+	height:12rem;
+	margin:5rem 0 0 10rem;
+}
+
+.search__input {
+	display: inline-block;
+	font-size: 8rem;
+	padding: 1rem;
+	font-weight: 700;
+	border: none;
+	background: transparent;
+	color: #ec5a62;
+}
+
+.search__input::placeholder { 
+	color:#c2c2c2;
+}
+
+.search__button {
+	display: inline-block;
+	border: none;
+	background: transparent url(../img/magnifier.svg);
+	height: 8rem;
+	width: 8rem;
+	cursor: pointer;
+	outline:0;
+}
+
+.container {
+	display: inline-block;
+	margin: 5rem 0 0 10rem;
+	width: 90%;
+}
+
+.column {
+	display: inline-block;
+	width: 20%;
+	margin: 2rem;
+}
+
+.list {
+	padding: 0;
+	list-style: none;
+}
+
+.column__title {
+	font-size: 2em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #c2c2c2;
+}
+
+/* li {
+	width: 75%;
+} */
+
+a {
+	text-decoration:none;
+	background-color: rgba(118,117,128,0.05);
+	padding: 0.75rem;
+	display: block;
+	margin: 0.3rem 0;
+	cursor: pointer;
+	border-radius: 5px;
+	background: rgba(118,117,128,0.05);
+	color: #c2c2c2;
+}
+
+.list a:hover{
+	color: #EC5A62;
+	background: rgba(118,117,128,0.1);
+}
+
+.list img {
+	display: inline-block;
+	width: 50px;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+
+.circle {
+	border-radius:10rem;
+}
+
+h3 {
+	vertical-align: middle;
+	font-size: 1.5rem;
+	display: inline-block;
+	font-weight: 700;
+	margin: 0 0 0 0;
+}
